@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="assests/css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="assests/css/style.css">
+    <link rel="stylesheet" type="text/css" href="assests/css/reset.css">
+  
+    <title>Hangman-Game</title>
+</head>
+<body >
+    <!--Header-->
+<header class="navbar ">
+    <h2 class="navbar-brand">Hangman Game</h2>
+</header>
+    <!--board-->
+<div class="container">
+    <!--scoreboard-->
+<div class="row ">
+    <div class="col-sm-4 col-lg-5">
+        <section class="sb-container">
+            <h3 class="title">Score Borad</h3>
+            <div class="scores" id="scores">
+               <div class="live">
+                <span class="" id="lives"></span>
+                <span class=""><img id="life" src="assests/image/star.png"></span>
+                </div>
+                <h3 class="guess">Gusses Remained</h3>
+                <div id="counter"></div>
+                <h3>Guessed Letters</h3>
+                <div class="guess-board">
+                    <div class="row no-gutters">
+                    <p class="guessed-letters col-2" id="g1"></p>
+                    <p class="guessed-letters col-2" id="g2"></p>
+                    <p class="guessed-letters col-2" id="g3"></p>
+                    <p class="guessed-letters col-2" id="g4"></p>
+                    <p class="guessed-letters col-2" id="g5"></p>
+                    <p class="guessed-letters col-2" id="g6"></p>
+                    </div>
+                    <div class="row no-gutters">
+                    <p class="guessed-letters col-2" id="g7"></p>
+                    <p class="guessed-letters col-2" id="g8"></p>
+                    <p class="guessed-letters col-2" id="g9"></p>
+                    <p class="guessed-letters col-2" id="g10"></p>
+                    <p class="guessed-letters col-2" id="g11"></p>
+                    <p class="guessed-letters col-2" id="g12"></p>
+                    </div>
+                    <div class="row no-gutters">
+                    <p class="guessed-letters col-2" id="g13"></p>
+                    <p class="guessed-letters col-2" id="g14"></p>
+                    <p class="guessed-letters col-2" id="g15"></p>
+                    <p class="guessed-letters col-2" id="g16"></p>
+                    <p class="guessed-letters col-2" id="g17"></p>
+                    <p class="guessed-letters col-2" id="g18"></p>
+                    </div>
+                </div>
+            </div>
+        </section> <!--section-1-->
+    </div> <!--col-sm-4-->
+    <!--gameboard-->
+    <div class="col-sm-8 col-lg-7">
+        <section class="gb-container">
+            <h3 class="title">Game Board</h3>
+            <div class="word-board" id="word-board">
+                <p class="word-letters" id="the-word"></p>
+            </div>
+            <div class="message-box" ><h3 id="message"></h3></div>
+            <button type="button" class="btn" id="btn" onclick = "startFunction()">Start</button>
+        </section> <!--section-2-->
+    </div> <!--col-sm-8-->
+</div> <!--row-->
+</div> <!--container-->
+<footer class="footer">
+    &copy;Copyright2017 Kevin Tabesh
+</footer>
+<script src="assests/javascript/hamgmanscript.js"></script>
+
+</body>
+
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
