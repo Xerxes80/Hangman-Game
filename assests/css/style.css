@@ -1,7 +1,7 @@
 body{
     background: url("../background/rubber_grip/rubber_grip.png");
     text-align: center;
-    margin: 0;
+    margin: 20px;
 }
 .navbar{
     padding: 6px;
